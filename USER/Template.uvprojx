@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HARDWARE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -491,7 +491,39 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>servo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\servo.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\usart2.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>README</GroupName>
+          <Files>
+            <File>
+              <FileName>Hardware and Code.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\README\Hardware and Code.txt</FilePath>
+            </File>
+            <File>
+              <FileName>Project Information.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\README\Project Information.txt</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>

@@ -1,0 +1,28 @@
+/************************************************************
+Project Inturdce: This project get voice mssage from usart,
+and contronl the robot by voice message.
+
+Hardware: STM32F407VET6
+
+Author: Chamico
+
+Connected: Chamico@aliyun.com
+
+Date: 2018/10/13
+************************************************************/
+
+/************************************************************
+                   Voice Command List
+				   
+	
+
+************************************************************/
+
+
+Wired way:
+
+
+
+
+Attention:
+
