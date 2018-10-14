@@ -11,9 +11,12 @@ Date: 2018/10/13
 Modify: None
 *************************************************/
 
-#ifndef _USART2_H_
-#define _USART2_H_
+#ifndef _USART1_H_
+#define _USART1_H_
 
+#include "include.h"
+
+void init_usart1(uint baud);
 
 
 #endif

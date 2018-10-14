@@ -18,6 +18,8 @@
 ..\obj\main.o: G:\keil5\ARM\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\SYSTEM\sys\sys.h
 ..\obj\main.o: ..\SYSTEM\delay\delay.h
+..\obj\main.o: ..\HARDWARE\led.h
 ..\obj\main.o: ..\HARDWARE\motor.h
+..\obj\main.o: ..\HARDWARE\include.h
 ..\obj\main.o: ..\HARDWARE\servo.h
-..\obj\main.o: ..\HARDWARE\usart2.h
+..\obj\main.o: ..\HARDWARE\usart1.h
