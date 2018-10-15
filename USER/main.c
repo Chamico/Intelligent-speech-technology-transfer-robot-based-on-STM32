@@ -16,8 +16,7 @@ int main(void)
 	init_usart1(9600);
 	while(1)
 	{
-		//LED0 = 1;
-		//LED1 = 0;
+		
 	}
 
 }

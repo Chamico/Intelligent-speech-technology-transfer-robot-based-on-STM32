@@ -44,3 +44,18 @@ void robot_go(uint left, uint right)
 	TIM_SetCompare3(TIM2,left);
 	TIM_SetCompare4(TIM2,0);
 }
+
+void robot_back(uint left, uint right)
+{
+	
+}
+
+void robot_left(uint left, uint right)
+{
+	
+}
+
+void robot_right(uint left, uint right)
+{
+	
+}

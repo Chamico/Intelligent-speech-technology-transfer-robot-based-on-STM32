@@ -4,7 +4,7 @@ Explain: The header flies contains all the contrnol
 				 on the intrlligent robot.The actual 
 				 implementation is in the usart2.c file.
 				 
-Hardware Required: None
+Hardware Required:  USART1
 				 
 Author: Chamico
 Date: 2018/10/13
