@@ -14,12 +14,24 @@ Date: 2018/10/13
 /************************************************************
                    Voice Command List
 				   
-	
-
+		            a    robot go
+					b    robot back
+					c    robot left
+					d    robot right
+					e    open clip
+					f    close clip
+					g    lift clip
+					h    put down clip
+					i    lift arm
+					j    put down arm
+					k    arm left
+					l    arm right
 ************************************************************/
 
 
 Wired way:
+    1:UART1
+	
 
 
 

@@ -4,7 +4,8 @@ Explain: The header flies contains all the contrnol
 				 robot. The actual implementation is in
 				 the motor.c file.
 				 
-Hardware Required: TIM2
+Developmet board resoueces: 
+    TIM2
     PA1,PA2,PA3,PA3
 				 
 Author: Chamico
@@ -19,6 +20,7 @@ Modify: None
 
 void init_motor(uint psc);	// psc : baud
 
+void robot_stop(void);
 void robot_go(uint left_pwm, uint right_pwm);         //robot operation contronl  
 void robot_back(uint left_pwm, uint right_pwm);       
 void robot_left(uint left_pwm, uint right_pwm); 

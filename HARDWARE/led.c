@@ -13,6 +13,13 @@ void init_led()
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
   GPIO_Init(GPIOA, &GPIO_InitStructure);//初始化GPIO
 	
-	GPIO_ResetBits(GPIOA,GPIO_Pin_6 | GPIO_Pin_7);
-	
+	GPIO_ResetBits(GPIOA,GPIO_Pin_6);
+	GPIO_SetBits(GPIOA,GPIO_Pin_7);
+}
+
+
+void led_conversion()
+{
+	LED0 =~ LED0;
+	LED1 =~ LED1;
 }

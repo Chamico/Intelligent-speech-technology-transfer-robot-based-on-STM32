@@ -19,7 +19,7 @@
 ..\obj\led.o: ..\SYSTEM\sys\sys.h
 ..\obj\led.o: ..\SYSTEM\delay\delay.h
 ..\obj\led.o: ..\HARDWARE\led.h
-..\obj\led.o: ..\HARDWARE\motor.h
 ..\obj\led.o: ..\HARDWARE\include.h
+..\obj\led.o: ..\HARDWARE\motor.h
 ..\obj\led.o: ..\HARDWARE\servo.h
 ..\obj\led.o: ..\HARDWARE\usart1.h
