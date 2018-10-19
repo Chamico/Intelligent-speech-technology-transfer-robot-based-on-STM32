@@ -46,6 +46,8 @@ void init_usart1(uint baud)
 
 }
 
+
+// 串口中断服务执行函数
 void USART1_IRQHandler(void)               
 {
 	u8 Res;
@@ -110,7 +112,7 @@ void USART1_IRQHandler(void)
 			case 'h':  	//put down the clip
 			led_conversion();
 			CLIP_UP_DOWN++;
-			if(CLIP_UP_DOWN)
+			if(CLIP_UP_DOWN >= 22)
 			{
 				CLIP_UP_DOWN = 22;
 			}

@@ -48,49 +48,77 @@ void init_motor(uint arr)
 	TIM_Cmd(TIM2, ENABLE);  //使能TIM14
 }
 
+//机器人停止函数
 void robot_stop()
 {
-	while(1)
-	{
-		delay_ms(50);
-		TIM_SetCompare1(TIM2,0);
-		TIM_SetCompare2(TIM2,0);
-		TIM_SetCompare3(TIM2,0);
-		TIM_SetCompare4(TIM2,0);
-	}
-	
+	TIM_SetCompare1(TIM2,0);
+	TIM_SetCompare2(TIM2,0);
+	TIM_SetCompare3(TIM2,0);
+	TIM_SetCompare4(TIM2,0);
+	delay_MS(50);
 }
 
+// 机器人前进函数
 void robot_go(uint left, uint right)
 {
 	TIM_SetCompare1(TIM2,right);
 	TIM_SetCompare2(TIM2,0);
 	TIM_SetCompare3(TIM2,left);
 	TIM_SetCompare4(TIM2,0);
-	delay_ms(300);
+	delay_MS(400);
 	robot_stop();
 }
 
+// 机器人后退函数
 void robot_back(uint left, uint right)
 {
 	TIM_SetCompare1(TIM2,0);
 	TIM_SetCompare2(TIM2,right);
 	TIM_SetCompare3(TIM2,0);
 	TIM_SetCompare4(TIM2,left);
+	delay_MS(400);
+	robot_stop();
 }
 
+//机器人左转函数
 void robot_left(uint left, uint right)
 {
 	TIM_SetCompare1(TIM2,right);
 	TIM_SetCompare2(TIM2,0);
 	TIM_SetCompare3(TIM2,0);
 	TIM_SetCompare4(TIM2,left);
+	delay_MS(200);
+	robot_stop();
 }
 
+
+// 机器人右转
 void robot_right(uint left, uint right)
 {
 	TIM_SetCompare1(TIM2,0);
 	TIM_SetCompare2(TIM2,right);
 	TIM_SetCompare3(TIM2,left);
 	TIM_SetCompare4(TIM2,0);
+	delay_MS(200);
+	robot_stop();
 }
+
+
+// 自定义延时函数
+void delay_MS(uint time)
+{
+	uint i = 0,j = 0, k = 0;
+	for(i = 0;i < 5999; i++)
+	{
+		for(k = 0;k <9; k++)
+		{
+			for(j = 0;j < time ;j++)
+			{
+				
+			}
+		}
+		
+	}
+}
+
+

@@ -6,6 +6,7 @@
 "..\obj\servo.o"
 "..\obj\usart1.o"
 "..\obj\led.o"
+"..\obj\infared.o"
 "..\obj\startup_stm32f40_41xxx.o"
 "..\obj\misc.o"
 "..\obj\stm32f4xx_can.o"

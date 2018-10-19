@@ -55,6 +55,7 @@ void init_servo(void)
 	TIM_Cmd(TIM4, ENABLE);  //使能TIM14
 }
 
+//设置机械臂舵机角度
 void set_servo(uint servo1, uint servo2, 
 	   uint servo3, uint servo4)
 {
@@ -64,8 +65,22 @@ void set_servo(uint servo1, uint servo2,
 	TIM_SetCompare4(TIM4,servo4);
 }
 
-void test()
+// 拾取物体的机械臂动作帧
+void arm_pickup(void)
 {
-	TIM_SetCompare4(TIM4,25);
+	delay_MS(100);
+	set_servo(9, 6, 3, 15);
+	delay_MS(500);
+	set_servo(14, 6, 3, 15);
+	delay_MS(500);
+	set_servo(14, 6, 7, 15);
+	delay_MS(500);
+	set_servo(14, 9, 11, 15);
+	delay_MS(500);
+	CLIP_OPEN_CLOSE = 14;
+  CLIP_UP_DOWN =9;
+	ARM_UP_DOWN = 11;
+	ARM_LEFT_RIGHT = 15;
+
 }
 

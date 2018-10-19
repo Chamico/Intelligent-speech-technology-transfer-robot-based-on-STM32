@@ -1,6 +1,6 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x5BC703AA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
-I (..\HARDWARE\include.h)(0x5BC6FECB)
+F (.\main.c)(0x5BC891DD)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\HARDWARE\include.h)(0x5BC88465)
 I (..\USER\stm32f4xx.h)(0x5710F354)
 I (..\CORE\core_cm4.h)(0x5710F350)
 I (G:\keil5\ARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -19,9 +19,10 @@ I (G:\keil5\ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\sys\sys.h)(0x5710F353)
 I (..\SYSTEM\delay\delay.h)(0x5710F353)
 I (..\HARDWARE\led.h)(0x5BC47D05)
-I (..\HARDWARE\motor.h)(0x5BC6A05C)
-I (..\HARDWARE\servo.h)(0x5BC6FCC9)
+I (..\HARDWARE\motor.h)(0x5BC8454F)
+I (..\HARDWARE\servo.h)(0x5BC8897D)
 I (..\HARDWARE\usart1.h)(0x5BC69983)
+I (..\HARDWARE\infared.h)(0x5BC891DD)
 F (.\stm32f4xx_it.c)(0x5710F354)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
 I (stm32f4xx_it.h)(0x5710F354)
 I (stm32f4xx.h)(0x5710F354)
@@ -53,8 +54,8 @@ I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x5710F351)
 I (..\FWLIB\inc\stm32f4xx_tim.h)(0x5710F351)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x5710F351)
 I (..\FWLIB\inc\misc.h)(0x5710F350)
-F (..\HARDWARE\motor.c)(0x5BC6F178)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
-I (..\HARDWARE\include.h)(0x5BC6FECB)
+F (..\HARDWARE\motor.c)(0x5BC89309)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+I (..\HARDWARE\include.h)(0x5BC88465)
 I (..\USER\stm32f4xx.h)(0x5710F354)
 I (..\CORE\core_cm4.h)(0x5710F350)
 I (G:\keil5\ARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -73,11 +74,12 @@ I (G:\keil5\ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\sys\sys.h)(0x5710F353)
 I (..\SYSTEM\delay\delay.h)(0x5710F353)
 I (..\HARDWARE\led.h)(0x5BC47D05)
-I (..\HARDWARE\motor.h)(0x5BC6A05C)
-I (..\HARDWARE\servo.h)(0x5BC6FCC9)
+I (..\HARDWARE\motor.h)(0x5BC8454F)
+I (..\HARDWARE\servo.h)(0x5BC8897D)
 I (..\HARDWARE\usart1.h)(0x5BC69983)
-F (..\HARDWARE\servo.c)(0x5BC703D7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\servo.o --omf_browse ..\obj\servo.crf --depend ..\obj\servo.d)
-I (..\HARDWARE\include.h)(0x5BC6FECB)
+I (..\HARDWARE\infared.h)(0x5BC891DD)
+F (..\HARDWARE\servo.c)(0x5BC895C6)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\servo.o --omf_browse ..\obj\servo.crf --depend ..\obj\servo.d)
+I (..\HARDWARE\include.h)(0x5BC88465)
 I (..\USER\stm32f4xx.h)(0x5710F354)
 I (..\CORE\core_cm4.h)(0x5710F350)
 I (G:\keil5\ARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -96,11 +98,12 @@ I (G:\keil5\ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\sys\sys.h)(0x5710F353)
 I (..\SYSTEM\delay\delay.h)(0x5710F353)
 I (..\HARDWARE\led.h)(0x5BC47D05)
-I (..\HARDWARE\motor.h)(0x5BC6A05C)
-I (..\HARDWARE\servo.h)(0x5BC6FCC9)
+I (..\HARDWARE\motor.h)(0x5BC8454F)
+I (..\HARDWARE\servo.h)(0x5BC8897D)
 I (..\HARDWARE\usart1.h)(0x5BC69983)
-F (..\HARDWARE\usart1.c)(0x5BC703AA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart1.o --omf_browse ..\obj\usart1.crf --depend ..\obj\usart1.d)
-I (..\HARDWARE\include.h)(0x5BC6FECB)
+I (..\HARDWARE\infared.h)(0x5BC891DD)
+F (..\HARDWARE\usart1.c)(0x5BC89688)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart1.o --omf_browse ..\obj\usart1.crf --depend ..\obj\usart1.d)
+I (..\HARDWARE\include.h)(0x5BC88465)
 I (..\USER\stm32f4xx.h)(0x5710F354)
 I (..\CORE\core_cm4.h)(0x5710F350)
 I (G:\keil5\ARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -119,11 +122,12 @@ I (G:\keil5\ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\sys\sys.h)(0x5710F353)
 I (..\SYSTEM\delay\delay.h)(0x5710F353)
 I (..\HARDWARE\led.h)(0x5BC47D05)
-I (..\HARDWARE\motor.h)(0x5BC6A05C)
-I (..\HARDWARE\servo.h)(0x5BC6FCC9)
+I (..\HARDWARE\motor.h)(0x5BC8454F)
+I (..\HARDWARE\servo.h)(0x5BC8897D)
 I (..\HARDWARE\usart1.h)(0x5BC69983)
-F (..\HARDWARE\led.c)(0x5BC47D04)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
-I (..\HARDWARE\include.h)(0x5BC6FECB)
+I (..\HARDWARE\infared.h)(0x5BC891DD)
+F (..\HARDWARE\led.c)(0x5BC8930A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\include.h)(0x5BC88465)
 I (..\USER\stm32f4xx.h)(0x5710F354)
 I (..\CORE\core_cm4.h)(0x5710F350)
 I (G:\keil5\ARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -142,9 +146,34 @@ I (G:\keil5\ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\sys\sys.h)(0x5710F353)
 I (..\SYSTEM\delay\delay.h)(0x5710F353)
 I (..\HARDWARE\led.h)(0x5BC47D05)
-I (..\HARDWARE\motor.h)(0x5BC6A05C)
-I (..\HARDWARE\servo.h)(0x5BC6FCC9)
+I (..\HARDWARE\motor.h)(0x5BC8454F)
+I (..\HARDWARE\servo.h)(0x5BC8897D)
 I (..\HARDWARE\usart1.h)(0x5BC69983)
+I (..\HARDWARE\infared.h)(0x5BC891DD)
+F (..\HARDWARE\infared.c)(0x5BC89525)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\infared.o --omf_browse ..\obj\infared.crf --depend ..\obj\infared.d)
+I (..\HARDWARE\include.h)(0x5BC88465)
+I (..\USER\stm32f4xx.h)(0x5710F354)
+I (..\CORE\core_cm4.h)(0x5710F350)
+I (G:\keil5\ARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x5710F350)
+I (..\CORE\core_cmFunc.h)(0x5710F350)
+I (..\CORE\core_cm4_simd.h)(0x5710F350)
+I (..\USER\system_stm32f4xx.h)(0x5710F354)
+I (..\USER\stm32f4xx_conf.h)(0x5BC09E59)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x5710F350)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x5710F351)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x5710F351)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x5710F351)
+I (..\FWLIB\inc\misc.h)(0x5710F350)
+I (..\SYSTEM\usart\usart.h)(0x5710F354)
+I (G:\keil5\ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x5710F353)
+I (..\SYSTEM\delay\delay.h)(0x5710F353)
+I (..\HARDWARE\led.h)(0x5BC47D05)
+I (..\HARDWARE\motor.h)(0x5BC8454F)
+I (..\HARDWARE\servo.h)(0x5BC8897D)
+I (..\HARDWARE\usart1.h)(0x5BC69983)
+I (..\HARDWARE\infared.h)(0x5BC891DD)
 F (..\CORE\startup_stm32f40_41xxx.s)(0x5710F350)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F40_41xxx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
 F (..\FWLIB\src\misc.c)(0x5710F353)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE-I C:\Users\Chamico\Desktop\Ungraduate\Intelligent-speech-technology-transfer-robot-based-on-STM32\USER\RTE-I G:\keil5\ARM\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I G:\keil5\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\FWLIB\inc\misc.h)(0x5710F350)
@@ -279,5 +308,5 @@ I (..\FWLIB\inc\stm32f4xx_usart.h)(0x5710F351)
 I (..\FWLIB\inc\misc.h)(0x5710F350)
 I (..\SYSTEM\usart\usart.h)(0x5710F354)
 I (G:\keil5\ARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\README\Hardware and Code.txt)(0x5BC48349)()
+F (..\README\Hardware and Code.txt)(0x5BC891DD)()
 F (..\README\Project Information.txt)(0x5BC1BAA6)()

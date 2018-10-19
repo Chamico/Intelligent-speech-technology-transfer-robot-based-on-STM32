@@ -26,5 +26,7 @@ void robot_back(uint left_pwm, uint right_pwm);
 void robot_left(uint left_pwm, uint right_pwm); 
 void robot_right(uint left_pwm, uint right_pwm); 
 
+
+void delay_MS(uint time);
 #endif
 

@@ -17,7 +17,7 @@ void init_led()
 	GPIO_SetBits(GPIOA,GPIO_Pin_7);
 }
 
-
+// LEDµÆ×´Ì¬×ª»»
 void led_conversion()
 {
 	LED0 =~ LED0;

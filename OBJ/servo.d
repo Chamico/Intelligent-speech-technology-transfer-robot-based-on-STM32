@@ -23,3 +23,4 @@
 ..\obj\servo.o: ..\HARDWARE\motor.h
 ..\obj\servo.o: ..\HARDWARE\servo.h
 ..\obj\servo.o: ..\HARDWARE\usart1.h
+..\obj\servo.o: ..\HARDWARE\infared.h

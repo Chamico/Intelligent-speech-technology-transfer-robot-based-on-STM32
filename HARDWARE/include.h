@@ -23,6 +23,7 @@ typedef unsigned char uchar;
 #include "motor.h"       //import roabot hardware header files
 #include "servo.h"
 #include "usart1.h"
+#include "infared.h"
 
 
 

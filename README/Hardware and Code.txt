@@ -14,7 +14,7 @@ Date: 2018/10/13
 /************************************************************
                    Voice Command List
 				   
-		            a    robot go
+		            a    robot go        
 					b    robot back
 					c    robot left
 					d    robot right
@@ -30,11 +30,29 @@ Date: 2018/10/13
 
 
 Wired way:
-    1:UART1
+    UART1
+	baud: 9600
+	
+	
+Motor:
+    PA0 -> PWM1
+	PA1 -> PWM2
+	PA2 -> PWM3
+	PA3 -> PWM4
+	
+	
+Servo:
+	servo1 -> PC6
+	servo2 -> PC7
+	servo3 -> PC8
+	servo4 -> PC9
+  The number of the steering gear increases from the claws
+	
+	
+Infared:
+	PC0 -> right
+	PC1 -> left
 	
 
-
-
-
 Attention:
-
+	正点原子@ALIENTEK的延时函数无法使用，程序中使用的是自定义的延时函数。

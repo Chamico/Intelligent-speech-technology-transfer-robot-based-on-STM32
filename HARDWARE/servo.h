@@ -21,7 +21,7 @@ Modify: None
 
 void init_servo(void);
 void set_servo(uint servo1, uint servo2, uint servo3, uint servo4);
-void test(void);
+void arm_pickup(void);
 
 
 
